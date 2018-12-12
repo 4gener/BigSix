@@ -1,0 +1,12 @@
+version: "3"
+
+services:
+  eureka-server:
+    image: bigsix_eureka_server
+    ports:
+      - 8761:8761
+
+  auth-service:
+    image: bigsix_auth_service
+    ports:
+      - 8762:8762
