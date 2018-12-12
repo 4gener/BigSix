@@ -47,6 +47,7 @@
 
     <modules>
         <module>auth-service</module>
+        <module>eureka-server</module>
     </modules>
 
 </project>
