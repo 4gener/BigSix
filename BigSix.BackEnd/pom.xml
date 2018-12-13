@@ -48,6 +48,8 @@
     <modules>
         <module>auth-service</module>
         <module>eureka-server</module>
+        <module>league-service</module>
+        <module>prediction-service</module>
     </modules>
 
 </project>
