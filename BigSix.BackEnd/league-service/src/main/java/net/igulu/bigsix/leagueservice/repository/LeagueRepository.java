@@ -5,8 +5,10 @@ import org.springframework.data.mongodb.repository.MongoRepository;
 
 import java.util.ArrayList;
 
-public interface LeagueRepository extends MongoRepository<League, String> {
+public interface LeagueRepository extends MongoRepository<League, Integer> {
 
     ArrayList<League> findLeaguesByAdminId(String adminId);
+
+    League findLeagueById(Integer Id);
 
 }

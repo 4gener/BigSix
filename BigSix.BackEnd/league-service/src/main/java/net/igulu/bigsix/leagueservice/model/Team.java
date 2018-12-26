@@ -12,13 +12,18 @@ import java.io.Serializable;
 public class Team implements Serializable {
 
     @Id
-    @GenericGenerator(name = "idGenerator", strategy = "uuid")
-    @GeneratedValue(generator = "idGenerator")
     @Field("id")
-    private String id;
+    private Integer id;
+
+    private static Integer idCount = 0;
+
+    private Integer generateId() {
+        idCount++;
+        return idCount;
+    }
 
     @Field("league_id")
-    private String leagueId;
+    private Integer leagueId;
 
     @Field("name")
     private String name;
@@ -29,4 +34,35 @@ public class Team implements Serializable {
     @Field("introduction")
     private String introduction;
 
+    public Team(){
+        this.id = generateId();
+    }
+
+    public Team(Integer leagueId, String name, String avatarUrl, String introduction) {
+        this.id = generateId();
+        this.leagueId = leagueId;
+        this.name = name;
+        this.avatarUrl = avatarUrl;
+        this.introduction = introduction;
+    }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public Integer getLeagueId() {
+        return leagueId;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public String getAvatarUrl() {
+        return avatarUrl;
+    }
+
+    public String getIntroduction() {
+        return introduction;
+    }
 }
