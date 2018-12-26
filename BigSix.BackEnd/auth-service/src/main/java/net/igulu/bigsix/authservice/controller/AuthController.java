@@ -12,7 +12,6 @@ import org.springframework.web.bind.annotation.*;
 import javax.servlet.http.HttpSession;
 
 @RestController()
-@RequestMapping(value = "/auth")
 public class AuthController {
 
     private final AuthService service;
@@ -28,15 +27,16 @@ public class AuthController {
         AuthSerializer requestSerializer = g.fromJson(body, AuthSerializer.class);
         SignInResponseSerializer serializer = service.signIn(requestSerializer.getUsername(), requestSerializer.getPassword());
         if (serializer.isOk()) {
-            session.setAttribute(session.getId(), serializer.getData());
+            User user = service.findByUsername(requestSerializer.getUsername());
+            session.setAttribute("user_id", user.getId());
         }
         return serializer;
     }
 
     @RequestMapping(value = "/print", method = RequestMethod.GET)
     public ResponseEntity print(HttpSession session) {
-        System.out.println(session.getAttribute(session.getId()));
-        return new ResponseEntity(HttpStatus.OK);
+        System.out.println(session.getAttribute("user_id"));
+        return new ResponseEntity(session.getAttribute("user_id"), HttpStatus.OK);
     }
 
     @RequestMapping(value = "/signup", method = RequestMethod.POST)
