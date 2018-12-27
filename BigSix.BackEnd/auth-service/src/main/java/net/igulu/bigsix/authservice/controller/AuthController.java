@@ -21,16 +21,16 @@ public class AuthController {
     }
 
     @RequestMapping(value = "/signin", method = RequestMethod.POST)
-    public SignInResponseSerializer signIn(HttpSession session,
-                                           @RequestBody String body) {
+    public ResponseEntity signIn(HttpSession session,
+                                 @RequestBody String body) {
         Gson g = new Gson();
         AuthSerializer requestSerializer = g.fromJson(body, AuthSerializer.class);
         SignInResponseSerializer serializer = service.signIn(requestSerializer.getUsername(), requestSerializer.getPassword());
         if (serializer.isOk()) {
             User user = service.findByUsername(requestSerializer.getUsername());
             session.setAttribute("user_id", user.getId());
-        }
-        return serializer;
+            return new ResponseEntity(serializer, HttpStatus.OK);
+        } else return new ResponseEntity(HttpStatus.NOT_FOUND);
     }
 
     @RequestMapping(value = "/print", method = RequestMethod.GET)

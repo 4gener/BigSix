@@ -1,6 +1,8 @@
 package net.igulu.bigsix.leagueservice.service;
 
+import net.igulu.bigsix.leagueservice.serializer.MatchListSerializer;
 import net.igulu.bigsix.leagueservice.model.League;
+import net.igulu.bigsix.leagueservice.model.Match;
 import net.igulu.bigsix.leagueservice.model.Team;
 
 import java.util.ArrayList;
@@ -18,6 +20,12 @@ public interface LeagueService {
     Team saveTeam(Team team);
 
     Team findTeamById(Integer id);
+
+    Match saveMatch(Match match);
+
+    ArrayList<MatchListSerializer> getMatchesByLeagueId(Integer leagueId);
+
+    ArrayList<MatchListSerializer> getMatchesByTeamId(Integer teamId);
 
 }
 

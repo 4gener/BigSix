@@ -5,8 +5,10 @@ import org.springframework.data.mongodb.repository.MongoRepository;
 
 import java.util.ArrayList;
 
-public interface MatchRepository extends MongoRepository<Match, String> {
+public interface MatchRepository extends MongoRepository<Match, Integer> {
 
-    ArrayList<Match> getMatchesByLeagueId(String leagueId);
+    ArrayList<Match> getMatchesByLeagueId(Integer leagueId);
+
+    ArrayList<Match> getMatchesByHostTeamIdOrGuestTeamIdOrderByMatchDate(Integer hostTeamId, Integer guestTeamId);
 
 }

@@ -1,34 +1,44 @@
 package net.igulu.bigsix.leagueservice.model;
 
-import org.hibernate.annotations.GenericGenerator;
 import org.springframework.data.mongodb.core.mapping.Document;
 import org.springframework.data.mongodb.core.mapping.Field;
 
-import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 import java.io.Serializable;
-
-enum MatchResult {
-    DRAW_GAME, HOST_WIN, GUEST_WIN
-}
 
 @Document
 public class Match implements Serializable {
 
     @Id
-    @GenericGenerator(name = "idGenerator", strategy = "uuid")
-    @GeneratedValue(generator = "idGenerator")
     @Field("id")
-    private String id;
+    private Integer id;
+
+    private static Integer idCount = 0;
+
+    private Integer generateId() {
+        idCount++;
+        return idCount;
+    }
+
+    public Match(Integer hostTeamId, Integer guestTeamId, Integer leagueId, Integer hostTeamScore, Integer guestTeamScore, Integer matchResult, String matchDate) {
+        this.id = generateId();
+        this.hostTeamId = hostTeamId;
+        this.guestTeamId = guestTeamId;
+        this.leagueId = leagueId;
+        this.hostTeamScore = hostTeamScore;
+        this.guestTeamScore = guestTeamScore;
+        this.matchResult = matchResult;
+        this.matchDate = matchDate;
+    }
 
     @Field("host_team_id")
-    private String hostTeamId;
+    private Integer hostTeamId;
 
     @Field("guest_team_id")
-    private String guestTeamId;
+    private Integer guestTeamId;
 
     @Field("league_id")
-    private String leagueId;
+    private Integer leagueId;
 
     @Field("host_team_score")
     private Integer hostTeamScore;
@@ -37,6 +47,44 @@ public class Match implements Serializable {
     private Integer guestTeamScore;
 
     @Field("match_result")
-    private MatchResult matchResult;
+    private Integer matchResult;
 
+    @Field("match_date")
+    private String matchDate;
+
+    public Integer getId() {
+        return id;
+    }
+
+    public static Integer getIdCount() {
+        return idCount;
+    }
+
+    public Integer getHostTeamId() {
+        return hostTeamId;
+    }
+
+    public Integer getGuestTeamId() {
+        return guestTeamId;
+    }
+
+    public Integer getLeagueId() {
+        return leagueId;
+    }
+
+    public Integer getHostTeamScore() {
+        return hostTeamScore;
+    }
+
+    public Integer getGuestTeamScore() {
+        return guestTeamScore;
+    }
+
+    public Integer getMatchResult() {
+        return matchResult;
+    }
+
+    public String getMatchDate() {
+        return matchDate;
+    }
 }
