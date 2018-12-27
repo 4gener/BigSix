@@ -1,13 +1,10 @@
 package net.igulu.bigsix.predictionservice.controller;
 
+import net.igulu.bigsix.predictionservice.model.Prediction;
 import net.igulu.bigsix.predictionservice.model.PredictionType;
 import net.igulu.bigsix.predictionservice.service.PredictionService;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 @RestController
@@ -27,5 +24,13 @@ public class PredictionController {
     @RequestMapping(value = "/type/{id}", method = RequestMethod.GET)
     public PredictionType getAllPredictionType(@PathVariable("id") Integer id) {
         return service.findPredictionTypeById(id);
+    }
+
+    @RequestMapping(value = "/prediction", method = RequestMethod.GET)
+    public Prediction makePrediction(@RequestParam("host_team_id") Integer hostTeamId,
+                                     @RequestParam("guest_team_id") Integer guestTeamId,
+                                     @RequestParam("type_id") Integer typeId) {
+        System.out.println(hostTeamId + guestTeamId + typeId);
+        return service.findByHostTeamIdAndGuestTeamIdAndPredictionTypeId(hostTeamId, guestTeamId, typeId);
     }
 }

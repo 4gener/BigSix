@@ -35,10 +35,6 @@ public class PredictionType implements Serializable {
     }
 
     public PredictionType() {
-        this.id = generateId();
-        this.name = "独赢";
-        this.handicap = 0;
-        this.isDefault = true;
     }
 
     public Integer getId() {
