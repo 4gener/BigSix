@@ -12,10 +12,42 @@ import java.io.Serializable;
 public class PredictionType implements Serializable {
 
     @Id
-    @GenericGenerator(name = "idGenerator", strategy = "uuid")
-    @GeneratedValue(generator = "idGenerator")
     @Field("id")
-    private String id;
+    private Integer id;
+
+    private static Integer idCount = 0;
+
+    private Integer generateId() {
+        idCount++;
+        return idCount;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public Integer getHandicap() {
+        return handicap;
+    }
+
+    public Boolean getDefault() {
+        return isDefault;
+    }
+
+    public PredictionType() {
+        this.id = generateId();
+        this.name = "独赢";
+        this.handicap = 0;
+        this.isDefault = true;
+    }
+
+    public Integer getId() {
+        return id;
+    }
+
+    public static Integer getIdCount() {
+        return idCount;
+    }
 
     @Field("name")
     private String name;
