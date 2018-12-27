@@ -9,6 +9,8 @@ public interface AuthService {
 
     User findByUsername(String username);
 
+    User findById(String id);
+
     SignInResponseSerializer signIn(String username, String password);
 
 }

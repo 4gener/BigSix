@@ -48,4 +48,11 @@ public class AuthController {
         return user;
     }
 
+    @RequestMapping(value = "/user", method = RequestMethod.GET)
+    public User getUser(HttpSession session){
+        String id = session.getAttribute("user_id").toString();
+        User user = service.findById(id);
+        return user;
+    }
+
 }
