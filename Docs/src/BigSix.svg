@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" height="853" version="1.1" width="1257">
+  <defs>
+    <linearGradient id="255_255_255_102_102_255" x1="0%" x2="100%" y1="0%" y2="0%">
+      <stop offset="0%" style="stop-color:rgb(255, 255, 255);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(102, 102, 255);stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="255_255_255_236_233_216" x1="0%" x2="100%" y1="0%" y2="0%">
+      <stop offset="0%" style="stop-color:rgb(255, 255, 255);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(236, 233, 216);stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="annotation_gradient" x1="0%" x2="0%" y1="0%" y2="100%">
+      <stop offset="0%" style="stop-color:rgb(255, 255, 255);stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:rgb(223, 223, 223);stop-opacity:1"/>
+    </linearGradient>
+    <g id="icon_defs">
+      <image height="16" id="fk_icon" transform="scale(0.64)" width="16" x="0" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAQhJREFUOI2lk0FKw0AYhb9/SDPNtAvBnSAewRv0EN0XkS4MdSOFQI+QIhS6qNRFQejeQ3gcN7GBJhIX4yKmEJvAQB4MAz8zjzcfb8RaSxepTrcBb7+dNkaYhDtxMgAYjTe14cf7o3MClRX+2fBY+LQlO0vwlQVoX4EFwQLCIQsY+IVTAi85GowvgCBYLEKSG64uDuy3U1uxaEuk0u8B/Z6i3xP0355mwxPEZTw/XRyNN7UF4OU/modo/c+35DIJd7KM53YWxfb2upmVuBRpFsX25vKTuzCusXp7XbgV6eV5IRUroxVGKwKtSHJT9sBFFatSZcfSbOj2BID7p1XjQWeDNnX+TJ0NfgFOe1t5slQQ5wAAAABJRU5ErkJggg==" y="0"/>
+      <image height="16" id="pk_icon" transform="scale(0.64)" width="16" x="0" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAIFJREFUOI3NktENwCAIRI/GWelMMlM70/XHFjVqTP1oLyFR0AcBhCRWtC39/gUgPCcTb4ZSpgkkwQi6ItMdMxZKnKUKYllRS6nKDGCA7Q7QA8DZB5gQSgnt6D5MnqsEaJ6heqmV/260NzGzuomx4ychzyqPxnjHGuN1wEt9v8rLgAu5KYHtVUKZggAAAABJRU5ErkJggg==" y="0"/>
+      <image height="14" id="index_icon" transform="scale(0.64)" width="14" x="0" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAAWtJREFUKJF9kr9LW1EUxz/n5tVQ6GBjeMWMhfbfKAhdhEIGB/+GQBWnKIW0VAuZqsVV90CHVsFRccveqVTNWI0oDlaavvfu+3bIj1f6Ei8c7nDO537P+Z5rknhZ/yxnhnNGUHAAPJst8bH2wphwAoDw+VNmKiFTznj4oF979/10EpOBlz86XJ10cM4RuIFipXQviCTaBytKU8n/E+2DFUliUgQA3js8IGA4lKzI0YcnAph7083PKonjr3X1EqnnszjcCJXGF0qjrg43wpx6ABD5Ap6B5OBKvZD/Tb8jjTcn9gHJIGdDMBX4X5j6j4wFoyTg/1wcC/V+IiBJ8qaOFIdg+205cym5BYRPxf5qWQa8al7ZCLz7U+Qy6oNRnFJdfg8Y6p2DwXztHYaxt9UYKZokdne2Ro0WCgGPvjWoLq9lRcCXT00WNq+ztUxacGtpWvHZuuKzdbWWpnPrMCnv2PC0Xj8WwOL2Te4D/AV30/dJgbApHgAAAABJRU5ErkJggg==" y="0"/>
+      <image height="14" id="table_icon" transform="scale(0.64)" width="14" x="0" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAA4AAAAOCAYAAAAfSC3RAAAABHNCSVQICAgIfAhkiAAAARJJREFUKJGdkj1OxDAQhb/x2E60oaThCEiIlmJ7WkS1XIE70CB6hLTFStwA7kGBREVBwwG4AIEkCwxFHJytiPY11ljvR29sMTO2gQc4WFwbzmOioBFcBA3gIuYLRCO4gIkHp7zczMUD/OwdcXayT1RHGYRZUKrCUQXHTlSqQpkFoQzC6eVDTnRvj9zfPoH43lmLPlEL0IhpQCRgGkA0Cy+OXzlcrCZ1e747B+a9cMBunL4cB9B++/94fxi4HqDpYnYREOtPgOG1JM0D1wN8dGU/SBIkEmODJK7bMgvfm+TiEmNcxDaN6q7IwrobuQibkHQlYAJ1OxJ+rnOiWSaO0y11b9ajjt2XZ3m1ZBr6rcq2n/wXIUpG04ib8iYAAAAASUVORK5CYII=" y="0"/>
+      <image height="16" id="nullable_icon" transform="scale(0.64)" width="16" x="0" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAAaRJREFUOI2lj79LG2Ecxj/3crmECElTORKISmk4KRTBiqOLOhQ3cWj/h2Yx4GZG3YR0UehfUOnkZicnR3FQAuKZYP0BRi/aJD19teePQe+845K20Gd6ed7v5/k+X/hPKe5jZGGopCW1vBpTI38CHOn8vmncLK7PbBa8gJGFoVI8HZ9OpDLoWYNorKstfC1tzo5NmhcnXNYuP6/PbBYEgJbU8olUhp7cYEcYIBrroic3SCKVQUtqeQAVQI2pET1reIOlN7MAfDn8yo5dDXiFnXn0rEHz4iQCIPzpSBvFOvaCprrHiJweIWo/nmtIO9BS+D9Ew0K5dTxLj6cZ7X0fOEM0LJB2OED59TN0c7m+xXjfBC+iLwO+f/Y5wLfZ1creMooimMx9DAb4ZgWAcxWGAc6lxdrBdwb0d6E/lxEArcNW2wCAtYNV6ldWyHcZASDrkjtFhIYAnHuHlcpywLtTBLIuH88BGPiU2zWG3xqvXqc7NvFrv1rD3Cib20uVfndt0dwos1+tdWzibn6CAYpeg6cWH4A5wGiPezKB4vZS5ds/1f2bHgDZ6ZBKHnLkqwAAAABJRU5ErkJggg==" y="0"/>
+      <image height="16" id="note_icon" transform="scale(0.64)" width="16" x="0" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAASxJREFUOI29kTFLw0AYhp8TXZSCo9jJsdq15bBDzeTUrWAHIYNQx+LSpf8gP8Ah0MExmKG4hLq4VCh0bUaHEHQUgjQUEc8liW2a2griBwfHfd/z3Hsc/EcVWgOh9zpbhdZApHsb6wjKmvMJvJc1ZzctWUsQ1yQIX8uas1e4vEskKwV6r6MAGrIWS16Ojh8ODs9NsVIwC7tTD1mVAHiu/7Szf78NsLkMmgRhcqs79QCwrm+/n+OfhGDPJ9B7HdWQNSZByMXp2TJYREtlJRDdvqVkVdLtW0lk98NP+iPDjrZ2Ypur+s0VgMpV8rw9PpOr5BmbwxQ8c+PCCVBq1xVAsSljmJFhZ84u/EIEC0CMzSHFpszisgUxPDJsorgijv+jJYZL7XrW+Ur2d4N/XV+HaG+ID5iU1AAAAABJRU5ErkJggg==" y="0"/>
+      <image height="16" id="zone_icon" transform="scale(0.64)" width="16" x="0" xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABHNCSVQICAgIfAhkiAAAALxJREFUOI1jYBhowIjMOTUr6v/F208JajL1TWMwsItmZGBgYGBBlnjy6gODV1ovXs0/3j9huHr+IJyPYsCbj18YRAV5GRj+/8VpwD8BDYZ9G2diN+Db998MD/ZNIuiFrx8/YDfgz5+/DJxMPwka8OcPwoVMyBK//+B2Oi51FBvAgi7ByMSCoYEkA5g4+Mg34M+ffwws3CIEDfjz5x8OA/7+Y2ibMIegAcgAJSnv3bX2P7Eand2CGQmrogcAAKgpTeNMOGM9AAAAAElFTkSuQmCC" y="0"/>
+    </g>
+  </defs>
+  <g Nm="RectGlyph">
+    <rect height="132.0" rx="2.56" ry="2.56" style="fill:rgb(236, 233, 216);stroke:rgb(128, 128, 128);stroke-width:0.5;" width="304.0" x="62.0" y="17.0"/>
+    <rect height="132.0" rx="2.56" ry="2.56" style="fill:rgb(236, 233, 216);stroke:rgb(236, 233, 216);stroke-width:0.5;" width="304.0" x="62.0" y="17.0"/>
+  </g>
+  <g>
+    <rect height="14.0" rx="2.56" ry="2.56" style="fill:url(#255_255_255_236_233_216);" width="303.0" x="62.5" y="17.5"/>
+    <rect height="14.0" rx="0.0" ry="0.0" style="fill:url(#255_255_255_236_233_216);" width="303.0" x="62.5" y="21.5"/>
+    <text style="font-family:Verdana;font-size:0.55em;font-weight:bold;" x="73" y="32">Auth-Service</text>
+    <use x="64" xlink:href="#zone_icon" y="22"/>
+  </g>
+  <rect height="7.5" rx="3.84" ry="3.84" style="fill:rgb(245, 248, 252);stroke:rgb(200, 216, 235);stroke-width:0.5;" width="93.0" x="8.0" y="3.0"/>
+  <rect height="7.5" rx="3.84" ry="3.84" style="fill:rgb(245, 248, 252);stroke:rgb(200, 216, 235);stroke-width:0.5;" width="93.0" x="8.0" y="3.0"/>
+  <rect height="14.0" rx="3.84" ry="3.84" style="fill:rgb(170, 188, 213);stroke:rgb(170, 188, 213);stroke-width:0.5;" width="93.0" x="8.0" y="3.0"/>
+  <g Nm="RectGlyph">
+    <rect height="332.0" rx="2.56" ry="2.56" style="fill:rgb(236, 233, 216);stroke:rgb(128, 128, 128);stroke-width:0.5;" width="689.0" x="72.0" y="197.0"/>
+    <rect height="332.0" rx="2.56" ry="2.56" style="fill:rgb(236, 233, 216);stroke:rgb(236, 233, 216);stroke-width:0.5;" width="689.0" x="72.0" y="197.0"/>
+  </g>
+  <g>
+    <rect height="14.0" rx="2.56" ry="2.56" style="fill:url(#255_255_255_236_233_216);" width="688.0" x="72.5" y="197.5"/>
+    <rect height="14.0" rx="0.0" ry="0.0" style="fill:url(#255_255_255_236_233_216);" width="688.0" x="72.5" y="201.5"/>
+    <text style="font-family:Verdana;font-size:0.55em;font-weight:bold;" x="83" y="212">League-Service</text>
+    <use x="74" xlink:href="#zone_icon" y="202"/>
+  </g>
+  <g Nm="RectGlyph">
+    <rect height="194.0" rx="2.56" ry="2.56" style="fill:rgb(236, 233, 216);stroke:rgb(128, 128, 128);stroke-width:0.5;" width="754.0" x="462.0" y="592.0"/>
+    <rect height="194.0" rx="2.56" ry="2.56" style="fill:rgb(236, 233, 216);stroke:rgb(236, 233, 216);stroke-width:0.5;" width="754.0" x="462.0" y="592.0"/>
+  </g>
+  <g>
+    <rect height="14.0" rx="2.56" ry="2.56" style="fill:url(#255_255_255_236_233_216);" width="753.0" x="462.5" y="592.5"/>
+    <rect height="14.0" rx="0.0" ry="0.0" style="fill:url(#255_255_255_236_233_216);" width="753.0" x="462.5" y="596.5"/>
+    <text style="font-family:Verdana;font-size:0.55em;font-weight:bold;" x="473" y="607">Prediction-Service</text>
+    <use x="464" xlink:href="#zone_icon" y="597"/>
+  </g>
+  <line style="stroke:rgb(0, 0, 0);" x1="229.0" x2="229.0" y1="124.5" y2="231.5"/>
+  <line stroke-dasharray="3, 2" style="stroke:rgb(0, 0, 0);" x1="229.0" x2="229.0" y1="231.5" y2="222.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="228.77639320225003" x2="233.22360679774997" y1="222.55278640450004" y2="231.44721359549996"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="229.22360679774997" x2="224.77639320225003" y1="222.55278640450004" y2="231.44721359549996"/>
+  <line stroke-dasharray="3, 2" style="stroke:rgb(0, 0, 0);" x1="229.0" x2="229.0" y1="222.5" y2="231.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="229.0" x2="229.0" y1="124.5" y2="133.5"/>
+  <rect height="18.0" rx="5.12" ry="5.12" style="fill:rgb(255, 255, 255);" width="99.0" x="183.0" y="171.0"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="187" y="186">fk_League_User</text>
+  <line style="stroke:rgb(0, 0, 0);" x1="347.5" x2="496.5" y1="452.0" y2="452.0"/>
+  <line stroke-dasharray="3, 2" style="stroke:rgb(0, 0, 0);" x1="496.5" x2="487.5" y1="452.0" y2="452.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="487.55278640450007" x2="496.44721359549993" y1="452.22360679775" y2="447.77639320225"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="487.55278640450007" x2="496.44721359549993" y1="451.77639320225" y2="456.22360679775"/>
+  <line stroke-dasharray="3, 2" style="stroke:rgb(0, 0, 0);" x1="487.5" x2="496.5" y1="452.0" y2="452.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="347.5" x2="356.5" y1="452.0" y2="452.0"/>
+  <rect height="18.0" rx="5.12" ry="5.12" style="fill:rgb(255, 255, 255);" width="97.0" x="377.0" y="431.0"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="381" y="446">fk_Match_Team</text>
+  <line style="stroke:rgb(0, 0, 0);" x1="347.5" x2="496.5" y1="487.0" y2="487.0"/>
+  <line stroke-dasharray="3, 2" style="stroke:rgb(0, 0, 0);" x1="496.5" x2="487.5" y1="487.0" y2="487.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="487.55278640450007" x2="496.44721359549993" y1="487.22360679775" y2="482.77639320225"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="487.55278640450007" x2="496.44721359549993" y1="486.77639320225" y2="491.22360679775"/>
+  <line stroke-dasharray="3, 2" style="stroke:rgb(0, 0, 0);" x1="487.5" x2="496.5" y1="487.0" y2="487.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="347.5" x2="356.5" y1="487.0" y2="487.0"/>
+  <rect height="18.0" rx="5.12" ry="5.12" style="fill:rgb(255, 255, 255);" width="97.0" x="377.0" y="466.0"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="381" y="481">fk_Match_Team</text>
+  <line style="stroke:rgb(0, 0, 0);" x1="292.0" x2="292.0" y1="507.5" y2="655.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="492.5" x2="295.5" y1="659.0" y2="659.0"/>
+  <path d="M292.0,656.0 A3,3 0 0,0 295.0,659.0" style="stroke:rgb(0, 0, 0);;fill:none"/>
+  <line stroke-dasharray="3, 2" style="stroke:rgb(0, 0, 0);" x1="492.5" x2="483.5" y1="659.0" y2="659.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="483.55278640450007" x2="492.44721359549993" y1="659.22360679775" y2="654.77639320225"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="483.55278640450007" x2="492.44721359549993" y1="658.77639320225" y2="663.22360679775"/>
+  <line stroke-dasharray="3, 2" style="stroke:rgb(0, 0, 0);" x1="483.5" x2="492.5" y1="659.0" y2="659.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="292.0" x2="292.0" y1="507.5" y2="516.5"/>
+  <rect height="18.0" rx="5.12" ry="5.12" style="fill:rgb(255, 255, 255);" width="153.0" x="219.0" y="574.0"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="223" y="589">fk_Prediction_GuestTeam</text>
+  <line style="stroke:rgb(0, 0, 0);" x1="198.0" x2="198.0" y1="507.5" y2="729.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="492.5" x2="201.5" y1="733.0" y2="733.0"/>
+  <path d="M198.0,730.0 A3,3 0 0,0 201.0,733.0" style="stroke:rgb(0, 0, 0);;fill:none"/>
+  <line stroke-dasharray="3, 2" style="stroke:rgb(0, 0, 0);" x1="492.5" x2="483.5" y1="733.0" y2="733.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="483.55278640450007" x2="492.44721359549993" y1="733.22360679775" y2="728.77639320225"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="483.55278640450007" x2="492.44721359549993" y1="732.77639320225" y2="737.22360679775"/>
+  <line stroke-dasharray="3, 2" style="stroke:rgb(0, 0, 0);" x1="483.5" x2="492.5" y1="733.0" y2="733.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="198.0" x2="198.0" y1="507.5" y2="516.5"/>
+  <rect height="18.0" rx="5.12" ry="5.12" style="fill:rgb(255, 255, 255);" width="120.0" x="142.0" y="611.0"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="146" y="626">fk_Prediction_Team</text>
+  <line stroke-dasharray="3, 2" style="stroke:rgb(0, 0, 0);" x1="967.5" x2="733.5" y1="708.0" y2="708.0"/>
+  <line stroke-dasharray="3, 2" style="stroke:rgb(0, 0, 0);" x1="733.5" x2="742.5" y1="708.0" y2="708.0"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="742.4472135955" x2="733.5527864045" y1="707.77639320225" y2="712.22360679775"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="742.4472135955" x2="733.5527864045" y1="708.22360679775" y2="703.77639320225"/>
+  <line stroke-dasharray="3, 2" style="stroke:rgb(0, 0, 0);" x1="742.5" x2="733.5" y1="708.0" y2="708.0"/>
+  <line stroke-dasharray="3, 2" style="stroke:rgb(0, 0, 0);" x1="967.5" x2="958.5" y1="708.0" y2="708.0"/>
+  <rect height="18.0" rx="5.12" ry="5.12" style="fill:rgb(255, 255, 255);" width="172.0" x="768.0" y="687.0"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="772" y="702">fk_Prediction_PredictionType</text>
+  <line style="stroke:rgb(0, 0, 0);" x1="228.0" x2="228.0" y1="348.5" y2="416.5"/>
+  <line stroke-dasharray="3, 2" style="stroke:rgb(0, 0, 0);" x1="228.0" x2="228.0" y1="416.5" y2="407.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="227.77639320225003" x2="232.22360679774997" y1="407.55278640450007" y2="416.44721359549993"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="228.22360679774997" x2="223.77639320225003" y1="407.55278640450007" y2="416.44721359549993"/>
+  <line stroke-dasharray="3, 2" style="stroke:rgb(0, 0, 0);" x1="228.0" x2="228.0" y1="407.5" y2="416.5"/>
+  <line style="stroke:rgb(0, 0, 0);" x1="228.0" x2="228.0" y1="348.5" y2="357.5"/>
+  <rect height="18.0" rx="5.12" ry="5.12" style="fill:rgb(255, 255, 255);" width="105.0" x="179.0" y="375.0"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="183" y="390">fk_Team_League</text>
+  <g Nm="RectGlyph">
+    <rect height="79.0" rx="7.68" ry="7.68" style="fill:rgb(102, 102, 255);stroke:rgb(128, 128, 128);stroke-width:0.5;" width="225.0" x="113.0" y="46.0"/>
+    <rect height="32.900000000000006" rx="7.68" ry="7.68" style="fill:url(#255_255_255_102_102_255);stroke:rgb(102, 102, 255);stroke-width:0.5;" width="225.0" x="113.0" y="46.0"/>
+    <rect height="16.450000000000003" rx="7.68" ry="7.68" style="fill:url(#255_255_255_102_102_255);stroke:rgb(102, 102, 255);stroke-width:0.5;" width="225.0" x="113.0" y="108.55"/>
+    <rect height="53.64999999999999" rx="0.0" ry="0.0" style="fill:rgb(255, 255, 255);stroke:rgb(255, 255, 255);stroke-width:0.5;" width="225.0" x="113.0" y="66.9"/>
+  </g>
+  <use x="115" xlink:href="#table_icon" y="52"/>
+  <text style="font-family:Verdana;font-size:0.55em;font-weight:bold;" x="127" y="61">User</text>
+  <line style="stroke:rgb(128, 128, 128);" x1="113.5" x2="337.5" y1="66.0" y2="66.0"/>
+  <use x="115" xlink:href="#pk_icon" y="71"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="127" y="81">id</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="241" y="81">UUID</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="270" y="81"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="270" y="81">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="278" y="81"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="127" y="94">username</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="241" y="94">Char</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="287" y="94">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="292" y="94"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="273" y="94">20</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="292" y="94">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="268" y="94">(</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="300" y="94"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="127" y="107">password_salt</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="241" y="107">Char</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="287" y="107">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="292" y="107"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="273" y="107">10</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="292" y="107">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="268" y="107">(</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="300" y="107"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="127" y="120">password_hash</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="241" y="120">Char</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="287" y="120">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="292" y="120"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="273" y="120">10</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="292" y="120">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="268" y="120">(</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="300" y="120"/>
+  <g Nm="RectGlyph">
+    <rect height="118.0" rx="7.68" ry="7.68" style="fill:rgb(102, 102, 255);stroke:rgb(128, 128, 128);stroke-width:0.5;" width="248.0" x="109.0" y="231.0"/>
+    <rect height="32.900000000000006" rx="7.68" ry="7.68" style="fill:url(#255_255_255_102_102_255);stroke:rgb(102, 102, 255);stroke-width:0.5;" width="248.0" x="109.0" y="231.0"/>
+    <rect height="16.450000000000003" rx="7.68" ry="7.68" style="fill:url(#255_255_255_102_102_255);stroke:rgb(102, 102, 255);stroke-width:0.5;" width="248.0" x="109.0" y="332.55"/>
+    <rect height="92.64999999999999" rx="0.0" ry="0.0" style="fill:rgb(255, 255, 255);stroke:rgb(255, 255, 255);stroke-width:0.5;" width="248.0" x="109.0" y="251.9"/>
+  </g>
+  <use x="111" xlink:href="#table_icon" y="237"/>
+  <text style="font-family:Verdana;font-size:0.55em;font-weight:bold;" x="125" y="246">League</text>
+  <line style="stroke:rgb(128, 128, 128);" x1="109.5" x2="356.5" y1="251.0" y2="251.0"/>
+  <use x="111" xlink:href="#pk_icon" y="256"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="123" y="266">id</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="233" y="266">UUID</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="262" y="266"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="262" y="266">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="270" y="266"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="123" y="279">name</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="233" y="279">Char</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="279" y="279">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="284" y="279"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="265" y="279">50</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="284" y="279">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="260" y="279">(</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="292" y="279"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="123" y="292">avatar_url</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="233" y="292">Char</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="286" y="292">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="291" y="292"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="265" y="292">100</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="291" y="292">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="260" y="292">(</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="299" y="292"/>
+  <use x="320" xlink:href="#nullable_icon" y="296"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="123" y="305">introduction</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="233" y="305">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="306" y="305">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="311" y="305"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="285" y="305">200</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="311" y="305">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="280" y="305">(</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="319" y="305"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="123" y="318">league_type</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="233" y="318">Integer</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="275" y="318"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="275" y="318">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="283" y="318"/>
+  <use x="344" xlink:href="#fk_icon" y="322"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="123" y="331">admin_id</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="233" y="331">UUID</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="262" y="331"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="262" y="331">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="270" y="331"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="123" y="344">match_version</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="233" y="344">Integer</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="275" y="344"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="275" y="344">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="283" y="344"/>
+  <g Nm="RectGlyph">
+    <rect height="92.0" rx="7.68" ry="7.68" style="fill:rgb(102, 102, 255);stroke:rgb(128, 128, 128);stroke-width:0.5;" width="231.0" x="117.0" y="416.0"/>
+    <rect height="32.900000000000006" rx="7.68" ry="7.68" style="fill:url(#255_255_255_102_102_255);stroke:rgb(102, 102, 255);stroke-width:0.5;" width="231.0" x="117.0" y="416.0"/>
+    <rect height="16.450000000000003" rx="7.68" ry="7.68" style="fill:url(#255_255_255_102_102_255);stroke:rgb(102, 102, 255);stroke-width:0.5;" width="231.0" x="117.0" y="491.55"/>
+    <rect height="66.64999999999999" rx="0.0" ry="0.0" style="fill:rgb(255, 255, 255);stroke:rgb(255, 255, 255);stroke-width:0.5;" width="231.0" x="117.0" y="436.9"/>
+  </g>
+  <use x="119" xlink:href="#table_icon" y="422"/>
+  <text style="font-family:Verdana;font-size:0.55em;font-weight:bold;" x="131" y="431">Team</text>
+  <line style="stroke:rgb(128, 128, 128);" x1="117.5" x2="347.5" y1="436.0" y2="436.0"/>
+  <use x="119" xlink:href="#pk_icon" y="441"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="131" y="451">id</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="224" y="451">UUID</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="253" y="451"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="253" y="451">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="261" y="451"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="131" y="464">name</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="224" y="464">Char</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="270" y="464">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="275" y="464"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="256" y="464">50</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="275" y="464">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="251" y="464">(</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="283" y="464"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="131" y="477">avatar_url</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="224" y="477">Char</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="277" y="477">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="282" y="477"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="256" y="477">100</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="282" y="477">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="251" y="477">(</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="290" y="477"/>
+  <use x="311" xlink:href="#nullable_icon" y="481"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="131" y="490">introduction</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="224" y="490">VarChar</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="297" y="490">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="302" y="490"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="276" y="490">200</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="302" y="490">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="271" y="490">(</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="310" y="490"/>
+  <use x="335" xlink:href="#fk_icon" y="494"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="131" y="503">league_id</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="224" y="503">UUID</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="253" y="503"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="253" y="503">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="261" y="503"/>
+  <g Nm="RectGlyph">
+    <rect height="105.0" rx="7.68" ry="7.68" style="fill:rgb(102, 102, 255);stroke:rgb(128, 128, 128);stroke-width:0.5;" width="233.0" x="496.0" y="408.0"/>
+    <rect height="32.900000000000006" rx="7.68" ry="7.68" style="fill:url(#255_255_255_102_102_255);stroke:rgb(102, 102, 255);stroke-width:0.5;" width="233.0" x="496.0" y="408.0"/>
+    <rect height="16.450000000000003" rx="7.68" ry="7.68" style="fill:url(#255_255_255_102_102_255);stroke:rgb(102, 102, 255);stroke-width:0.5;" width="233.0" x="496.0" y="496.55"/>
+    <rect height="79.64999999999999" rx="0.0" ry="0.0" style="fill:rgb(255, 255, 255);stroke:rgb(255, 255, 255);stroke-width:0.5;" width="233.0" x="496.0" y="428.9"/>
+  </g>
+  <use x="498" xlink:href="#table_icon" y="414"/>
+  <text style="font-family:Verdana;font-size:0.55em;font-weight:bold;" x="511" y="423">Match</text>
+  <line style="stroke:rgb(128, 128, 128);" x1="496.5" x2="728.5" y1="428.0" y2="428.0"/>
+  <use x="498" xlink:href="#pk_icon" y="433"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="510" y="443">id</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="641" y="443">UUID</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="670" y="443"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="670" y="443">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="678" y="443"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="510" y="456">host_team_score</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="641" y="456">Integer</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="683" y="456"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="683" y="456">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="691" y="456"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="510" y="469">guest_team_score</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="641" y="469">Integer</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="683" y="469"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="683" y="469">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="691" y="469"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="510" y="482">match_result</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="641" y="482">Integer</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="683" y="482"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="683" y="482">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="691" y="482"/>
+  <use x="716" xlink:href="#fk_icon" y="486"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="510" y="495">host_team_id</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="641" y="495">UUID</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="670" y="495"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="670" y="495">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="678" y="495"/>
+  <use x="716" xlink:href="#fk_icon" y="499"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="510" y="508">guest_team_id</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="641" y="508">UUID</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="670" y="508"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="670" y="508">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="678" y="508"/>
+  <g Nm="RectGlyph">
+    <rect height="79.0" rx="7.68" ry="7.68" style="fill:rgb(102, 102, 255);stroke:rgb(128, 128, 128);stroke-width:0.5;" width="237.0" x="967.0" y="669.0"/>
+    <rect height="32.900000000000006" rx="7.68" ry="7.68" style="fill:url(#255_255_255_102_102_255);stroke:rgb(102, 102, 255);stroke-width:0.5;" width="237.0" x="967.0" y="669.0"/>
+    <rect height="16.450000000000003" rx="7.68" ry="7.68" style="fill:url(#255_255_255_102_102_255);stroke:rgb(102, 102, 255);stroke-width:0.5;" width="237.0" x="967.0" y="731.55"/>
+    <rect height="53.64999999999999" rx="0.0" ry="0.0" style="fill:rgb(255, 255, 255);stroke:rgb(255, 255, 255);stroke-width:0.5;" width="237.0" x="967.0" y="689.9"/>
+  </g>
+  <use x="969" xlink:href="#table_icon" y="675"/>
+  <text style="font-family:Verdana;font-size:0.55em;font-weight:bold;" x="988" y="684">PredictionType</text>
+  <line style="stroke:rgb(128, 128, 128);" x1="967.5" x2="1203.5" y1="689.0" y2="689.0"/>
+  <use x="969" xlink:href="#pk_icon" y="694"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="981" y="704">Id</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1062" y="704">UUID</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1091" y="704"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1091" y="704">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1099" y="704"/>
+  <use x="969" xlink:href="#pk_icon" y="707"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="981" y="717">name</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1062" y="717">Char</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1108" y="717">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1113" y="717"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1094" y="717">20</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1113" y="717">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1089" y="717">(</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1121" y="717"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="981" y="730">handicap</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1062" y="730">Integer</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1104" y="730"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1104" y="730">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1112" y="730">(主队让分)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="981" y="743">is_default</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1062" y="743">Boolean</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1108" y="743"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1108" y="743">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="1116" y="743"/>
+  <g Nm="RectGlyph">
+    <rect height="157.0" rx="7.68" ry="7.68" style="fill:rgb(102, 102, 255);stroke:rgb(128, 128, 128);stroke-width:0.5;" width="242.0" x="492.0" y="619.0"/>
+    <rect height="32.900000000000006" rx="7.68" ry="7.68" style="fill:url(#255_255_255_102_102_255);stroke:rgb(102, 102, 255);stroke-width:0.5;" width="242.0" x="492.0" y="619.0"/>
+    <rect height="16.450000000000003" rx="7.68" ry="7.68" style="fill:url(#255_255_255_102_102_255);stroke:rgb(102, 102, 255);stroke-width:0.5;" width="242.0" x="492.0" y="759.55"/>
+    <rect height="131.64999999999998" rx="0.0" ry="0.0" style="fill:rgb(255, 255, 255);stroke:rgb(255, 255, 255);stroke-width:0.5;" width="242.0" x="492.0" y="639.9"/>
+  </g>
+  <use x="494" xlink:href="#table_icon" y="625"/>
+  <text style="font-family:Verdana;font-size:0.55em;font-weight:bold;" x="511" y="634">Prediction</text>
+  <line style="stroke:rgb(128, 128, 128);" x1="492.5" x2="733.5" y1="639.0" y2="639.0"/>
+  <use x="494" xlink:href="#pk_icon" y="644"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="506" y="654">Id</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="637" y="654">Integer</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="679" y="654"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="679" y="654">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="687" y="654"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="506" y="667">host_win_rate</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="637" y="667">Float</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="664" y="667"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="664" y="667">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="672" y="667"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="506" y="680">draw_game_rate</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="637" y="680">Float</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="664" y="680"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="664" y="680">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="672" y="680"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="506" y="693">guest_win_rate</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="637" y="693">Float</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="664" y="693"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="664" y="693">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="672" y="693"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="506" y="706">version</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="637" y="706">Integer</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="679" y="706"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="679" y="706">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="687" y="706"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="506" y="719">view_count</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="637" y="719">Integer</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="679" y="719"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="679" y="719">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="687" y="719"/>
+  <use x="721" xlink:href="#fk_icon" y="723"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="506" y="732">host_team_id</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="637" y="732">UUID</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="666" y="732"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="666" y="732">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="674" y="732"/>
+  <use x="721" xlink:href="#fk_icon" y="736"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="506" y="745">guest_team_id</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="637" y="745">UUID</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="666" y="745"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="666" y="745">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="674" y="745"/>
+  <use x="721" xlink:href="#fk_icon" y="749"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="506" y="758">prediction_type_id</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="637" y="758">UUID</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="666" y="758"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="666" y="758">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="674" y="758"/>
+  <use x="697" xlink:href="#nullable_icon" y="762"/>
+  <use x="721" xlink:href="#fk_icon" y="762"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="506" y="771">name</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="637" y="771">Char</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="683" y="771">)</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="688" y="771"/>
+  <text style="font-family:Verdana;font-size:0.55em;" x="669" y="771">20</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="688" y="771">  </text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="664" y="771">(</text>
+  <text style="font-family:Verdana;font-size:0.55em;" x="696" y="771"/>
+  <g class="annotation">
+    <g class="frame" style="fill:none;stroke:rgb(128, 128, 128);stroke-width:.5;">
+      <rect height="833" width="1237" x="2" y="2"/>
+      <rect height="26.0" rx="0.0" ry="0.0" style="fill:url(#annotation_gradient);stroke:rgb(128, 128, 128);stroke-width:0.25;" width="1237.0" x="2.0" y="809.0"/>
+      <line x1="200" x2="200" y1="809" y2="835"/>
+      <line x1="400" x2="400" y1="809" y2="835"/>
+    </g>
+    <text style="font-family:Verdana;font-size:0.55em;fill:rgb(128, 128, 128);" x="10" y="819">Diagram:</text>
+    <text style="font-family:Verdana;font-size:0.55em;fill:rgb(128, 128, 128);" x="210" y="819">Created:</text>
+    <text style="font-family:Verdana;font-size:0.55em;fill:rgb(128, 128, 128);" x="410" y="819">DbWrench Design:</text>
+    <text style="font-family:Verdana;font-size:0.55em;fill:rgb(64, 64, 64);" x="25" y="831">BigSix</text>
+    <text style="font-family:Verdana;font-size:0.55em;fill:rgb(64, 64, 64);" x="225" y="831">25 Dec 2018 - 11:03:10 PM</text>
+    <text style="font-family:Verdana;font-size:0.55em;fill:rgb(64, 64, 64);" x="425" y="831">BigSix</text>
+  </g>
+</svg>
