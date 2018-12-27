@@ -40,8 +40,8 @@ public class Prediction {
         this.predictionTypeId = predictionTypeId;
         this.version = 1;
         this.viewCount = 1;
-        this.hostWinRate = 0.35 + (predictionTypeId - 5) * 0.07 + Math.sqrt(hostTeamId) * 0.01;
-        this.guestWinRate = 0.35 - (predictionTypeId - 5) * 0.07 - Math.sqrt(guestTeamId) * 0.01;
+        this.hostWinRate = 0.35 + (predictionTypeId - 5) * 0.07 + Math.sqrt(hostTeamId % 100) * 0.01;
+        this.guestWinRate = 0.35 - (predictionTypeId - 5) * 0.07 - Math.sqrt(guestTeamId % 100) * 0.01;
         this.drawGameRate = 1 - hostWinRate - guestWinRate;
     }
 
