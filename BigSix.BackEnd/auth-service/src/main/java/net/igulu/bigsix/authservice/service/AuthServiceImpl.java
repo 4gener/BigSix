@@ -20,7 +20,7 @@ public class AuthServiceImpl implements AuthService {
 
     @Override
     public User findByUsername(String username) {
-        return repository.findByUsername(username);
+        return repository.findUserByUsername(username);
     }
 
     @Override
@@ -39,5 +39,10 @@ public class AuthServiceImpl implements AuthService {
             serializer.setMessage("user not found");
         }
         return serializer;
+    }
+
+    @Override
+    public User findById(String id) {
+        return repository.findUserById(id);
     }
 }
