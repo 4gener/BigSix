@@ -6,6 +6,7 @@ import net.igulu.bigsix.leagueservice.model.Match;
 import net.igulu.bigsix.leagueservice.model.Team;
 
 import java.util.ArrayList;
+import java.util.List;
 
 public interface LeagueService {
 
@@ -18,6 +19,8 @@ public interface LeagueService {
     ArrayList<Team> findTeamsByLeagueId(Integer leagueId);
 
     Team saveTeam(Team team);
+
+    List<Team> saveTeams(List<Team> teams);
 
     Team findTeamById(Integer id);
 

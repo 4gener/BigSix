@@ -11,6 +11,7 @@ import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;
 import java.util.ArrayList;
+import java.util.List;
 
 @Service
 public class LeagueServiceImpl implements LeagueService {
@@ -48,6 +49,11 @@ public class LeagueServiceImpl implements LeagueService {
     @Override
     public Team saveTeam(Team team) {
         return teamRepository.save(team);
+    }
+
+    @Override
+    public List<Team> saveTeams(List<Team> teams) {
+        return teamRepository.saveAll(teams);
     }
 
     @Override

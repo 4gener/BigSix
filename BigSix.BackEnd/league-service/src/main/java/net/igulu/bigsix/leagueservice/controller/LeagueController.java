@@ -14,6 +14,7 @@ import java.io.*;
 
 import javax.servlet.http.HttpSession;
 import java.util.ArrayList;
+import java.util.List;
 
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVRecord;
@@ -81,6 +82,11 @@ public class LeagueController {
         Gson g = new Gson();
         Team team = g.fromJson(body, Team.class);
         return service.saveTeam(team);
+    }
+
+    @RequestMapping(value = "/teams", method = RequestMethod.POST)
+    public List<Team> saveTeam(@RequestBody List<Team> teams) {
+        return service.saveTeams(teams);
     }
 
     @RequestMapping(value = "/team/{id}", method = RequestMethod.GET)
